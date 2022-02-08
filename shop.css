@@ -1,0 +1,22 @@
+/* 아래에 코드를 작성하시오. */
+*{
+  box-sizing: border-box;
+}
+body{
+  display: block;
+}
+.fs-5{
+  font-size: 1.25rem!important;
+}
+
+.g-4{
+  --bs-gutter-y: 1.5rem;
+}
+.g-4{
+  --bs-gutter-x: 1.5rem;
+}
+.row{
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x)/ -2);
+  margin-left: calc(var(--bs-gutter-x)/ -2);
+}
